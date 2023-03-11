@@ -137,8 +137,6 @@ main .coluna section ul li strong{
     display: inline-block;
 }
 
-/* @MEDIA */
-@media only screen and (min-width: 768px){
     .linha{
         display: flex;
         flex-wrap: wrap;
@@ -178,4 +176,3 @@ main .coluna section ul li strong{
         display: initial;
     }
     
-}

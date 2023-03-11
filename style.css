@@ -11,12 +11,11 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
 }
 
 :root{
-    --corBackgroundPrimaria: rgb(211, 163, 163);
-    --corBackgroundSecundaria: #353541;
-
+    --corBackgroundPrimaria: #000;
+    --corBackgroundSecundaria: #000;
     --corTextPrimaria:#636363;
-    --corTextoSecudaria:#000;
-
+    --corTextoSecudaria:white;
+    --corTextoTerciaria:#000;
 }
 
 .hidden{
@@ -84,13 +83,13 @@ footer nav ul li a{
 }
 
 footer nav .info-contato li{
-    margin: 0 0 15px;
+    margin: 15px;
 }
 
 footer nav .redes-sociais{
     border-top: 1px solid rgb(255 255 255 / 20%);
-    margin: 20px 0 50px;
-    padding: 50px 0 0;
+    margin: 20px;
+    padding: 50px;
     text-align: center;
 }
 footer nav .redes-sociais li{
@@ -112,7 +111,7 @@ main .coluna section{
     border-bottom: 1px solid #000000;
     margin: 0 0 20px;
     min-height: 187px;
-    color:var(--corTextoSecudaria);
+    color:var(--corTextoTerciaria);
 }
 
 main .coluna section h2{
@@ -179,11 +178,4 @@ main .coluna section ul li strong{
         display: initial;
     }
     
-}
-
-@media only screen and (min-width: 991px){
-
-    header .coluna-direita{
-        flex-basis: 70%;
-    }
 }

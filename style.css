@@ -120,7 +120,7 @@ main .coluna section h2{
 }
 main .coluna section p{
     font-size: 0.9rem;
-    color: var(--corTextPrimaria);
+    color: var(--corTextoTerciaria);
     line-height: 1.5;
 }
 

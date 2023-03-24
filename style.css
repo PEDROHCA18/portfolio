@@ -143,6 +143,15 @@ main .coluna section ul li strong{
         align-items: flex-start;
         justify-content: space-between;
     }
+
+@media only screen and (min-width: 768px){ 
+.linha{ 
+  display: flex; 
+  flex-wrap: wrap; 
+  align-items: flex-start; 
+  justify-content: space-between; 
+}
+  
     footer nav .redes-sociais {
         display: flex;
         justify-content: center;
@@ -175,4 +184,10 @@ main .coluna section ul li strong{
         text-align: center;
         display: initial;
     }
-    
+
+
+  
+    @media only screen and (min-width: 991px){ 
+      header .coluna-direita{ 
+        flex-basis: 70%; 
+      }
